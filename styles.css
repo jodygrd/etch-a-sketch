@@ -1,10 +1,12 @@
+.cell {
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+}
+
 #container {
     display: flex;
     flex-wrap: wrap;
+    max-width: 360px;
 }
 
-.square{
-    border: 1px solid black;
-    height: 10px;
-    width: 10px;
-}
