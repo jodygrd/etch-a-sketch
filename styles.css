@@ -10,3 +10,12 @@
     box-sizing: border-box;
 }
 
+button {
+    margin: auto;
+    border: 1px solid black;
+    background-color: greenyellow;
+}
+
+button:hover {
+    background-color: aqua;
+}
