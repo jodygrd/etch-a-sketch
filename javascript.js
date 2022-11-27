@@ -8,13 +8,15 @@
 // document.getElementById("myDIV").appendChild(para);
 
 //CREATE GRID
-const grid_width = 16
+const grid_width = 50
+const cell_width = 400 / grid_width
 
 for (let i = 0; i < grid_width; i++) {
     for (let i = 0; i < grid_width; i++) {
         const cell = document.createElement("div")
         cell.classList.add("cell");
         document.getElementById("container").appendChild(cell)
+        cell.style.width = cell_width + "px"
     }
 }
 
