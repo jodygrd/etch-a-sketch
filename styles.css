@@ -10,10 +10,17 @@
     box-sizing: border-box;
 }
 
+.header {
+    margin: 10px 0;
+
+}
+
 button {
     margin: auto;
     border: 1px solid black;
     background-color: greenyellow;
+    padding: 10px;
+    width: 400px;
 }
 
 button:hover {

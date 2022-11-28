@@ -25,10 +25,9 @@ function getSize(){
             grid_width = prompt("Pick a number between 10 and 100!");
         } while (grid_width < 10 || grid_width > 100)
         createGrid(grid_width);
-        sketch();   
+        sketch();
     }))
 }
-
 
 
 //CREATE GRID
@@ -53,6 +52,8 @@ function sketch() {
     }
 )});
 }
+
+
 
 
 
