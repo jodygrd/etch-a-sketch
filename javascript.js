@@ -49,8 +49,13 @@ function sketch() {
     const cells = document.querySelectorAll(".cell")
     cells.forEach(cell => {cell.addEventListener('mouseover', function(){
         cell.style.backgroundColor = "purple";
-    }
-)});
+        cell.classList.remove('on')
+    })})
+    //make cells change back?
+    cells.forEach(cell => {cell.addEventListener('mouseout', function(){
+        cell.classList.add('on')
+        cell.style.backgroundColor = "white"
+    })})
 }
 
 
